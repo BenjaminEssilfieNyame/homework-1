@@ -1,0 +1,549 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(156, 128, 92, 0.692);
+  padding: 5rem;
+  /*padding-right: 11rem;*/
+  font-size: 10px;
+}
+
+header {
+  height: 100px;
+  font-size: 1.5rem;
+  /* padding-left: 1rem; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  /* background-color: lightcyan; */
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+li {
+  font-size: 2rem;
+}
+
+li ul li {
+  font-family: cursive;
+  font-size: 0.5rem;
+}
+
+img {
+  height: 50%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nav */
+
+.nav-details {
+  color: chocolate;
+}
+
+.backery {
+  position: relative;
+  height: 100%;
+  justify-content: space-evenly;
+  background-color: rgb(68, 101, 128);
+  align-items: center;
+  padding: 0.1rem;
+  margin-left: 3.5em;
+  padding-top: 2rem;
+}
+
+#bak {
+  color: white;
+  font-style: italic;
+  font-family: emoji;
+  font-size: 0.9em;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* .backery a {
+  padding-top: 50px;
+} */
+
+.contact {
+  margin-left: 50px;
+}
+
+#contact-number {
+  font-size: 1.2rem;
+}
+
+/* Main */
+
+main {
+  height: 100%;
+}
+
+#item-1 {
+  height: 100%;
+}
+/* Section 0 */
+
+#background img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-im {
+  width: 100%;
+  width: 100%;
+}
+
+/* Section Heights */
+
+.about {
+  height: 30rem;
+}
+
+.about-medium {
+  height: 35rem;
+  background-color: rgb(245, 233, 233);
+}
+
+.about-large {
+  height: 40rem;
+}
+
+.contact-detail {
+  height: 20rem;
+}
+
+/* Section 1 */
+
+.about-menu {
+  position: relative;
+  height: 100%;
+  background-color: white;
+}
+
+.about-text {
+  position: relative;
+  text-align: center;
+  height: 10%;
+  width: 50%;
+  font-family: cursive;
+  position: relative;
+  margin: auto;
+  /* padding-top: 2.5rem; */
+}
+
+.about-text h1 {
+  font-size: 2em;
+  font-family: cursive;
+  font-style: italic;
+  padding-top: 60px;
+}
+
+.about-text::after {
+  content: "";
+  height: 10%;
+  width: 70px;
+  display: block;
+  background-color:rgba(156, 128, 92, 0.692);
+  position: relative;
+  margin-top: 1rem;
+  bottom: 10px;
+  left: 43%;
+}
+
+.about-im {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-left: 8%;
+  padding-right: 6%;
+}
+
+.about-im div {
+  margin-top: 10%;
+}
+
+.about-im img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+/* What we offer */
+
+.variety-spacing {
+  margin-top: 2.5rem;
+}
+
+.variety p {
+  color: chocolate;
+  font-style: italic;
+  font-size: 20px;
+  transform: rotate(-25deg);
+  margin-bottom: -105px;
+  margin-left: -40px;
+}
+
+.variety img {
+  margin-top: 4.3rem;
+}
+
+/*  Our Story */
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.left {
+  float: left;
+  left: 0;
+  background-color: rgb(68, 101, 128);
+  padding: 100px 50px 0px 100px;
+}
+
+.left h1 {
+  color: rgb(223, 217, 217);
+  text-align: center;
+}
+
+.heading-wrap {
+  margin-top: -5rem;
+}
+
+.heading-wrap:after {
+  content: "";
+  height: 11.9%;
+  width: 75px;
+  display: block;
+  background-color: chocolate;
+  position: relative;
+  margin-top: 1.2rem;
+  bottom: 10px;
+  left: 32%;
+  background-color: white;
+}
+
+.left p {
+  display: block;
+  font-size: 1.5em;
+  color: rgb(223, 217, 217);
+  width: 25rem;
+  padding: 1rem;
+}
+
+.text-postn {
+  margin-top: 6rem;
+}
+
+.right {
+  right: 0;
+  background-color: lightblue;
+  position: relative;
+  height: 100%;
+}
+
+.grid-wrapper {
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 2px;
+}
+
+.im2 {
+  float: right;
+  margin-top: -44.5%;
+  margin-right: 25%;
+}
+
+.im3 {
+  float: right;
+  margin-top: -22.5%;
+}
+
+.im4 {
+  float: right;
+  margin-left: 25%;
+  /* margin-bottom: -20%;
+  padding-bottom: -10%; */
+}
+
+.im5 {
+  float: left;
+  margin-top: -22%;
+}
+
+/* Section Restaurant */
+
+#restaurant-im {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+#restaurant-im img {
+  height: 20rem;
+  width: 17.5rem;
+  margin: -4rem;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+}
+
+.bread-menu {
+  margin: auto;
+  padding-left: 10%;
+}
+
+.bread-menu-btn button {
+  margin-top: 5%;
+  margin-left: 43%;
+  width: 15%;
+  height: 15%;
+  padding: 0.7em;
+  border-radius: 10px;
+  border-width: 1px;
+  font-size: 1.75em;
+  background-color: inherit;
+  border-color: rgba(189, 160, 122, 0.692);
+  color: rgba(189, 160, 122, 0.692);
+}
+
+/* .bread-im1 img {
+  margin-left: 0px;
+} */
+
+.bread-im2 img {
+  margin-left: 0.3rem;
+}
+
+.bread-im3 img {
+  margin-left: 0.5rem;
+}
+
+.bread-im4 img {
+  margin-left: 1rem;
+}
+
+.bread-text {
+  text-align: center;
+  padding-right: 2rem;
+  /* margin: auto; */
+  margin-left: 1.5rem;
+}
+
+.bread-text h1 {
+  font-size: 2em;
+  padding-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.bread-text p {
+  text-align: justify;
+  display: block;
+  font-size: 1.5em;
+  width: 12rem;
+}
+
+/* Section menu */
+
+.menu-left {
+  float: left;
+  left: 0;
+}
+
+.menu-right {
+  position: relative;
+  height: 100%;
+  background-color: rgb(225, 228, 230);
+  right: 0;
+}
+
+.menu-right p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1rem;
+  margin-top: -3rem;
+}
+
+.menu-right h1 {
+  margin-top: -1rem;
+}
+
+.menu-spacing {
+  padding: 5%;
+  padding-top: 26%;
+}
+
+.menu-spacing p {
+  height: 100%;
+  font-size: 1.4em;
+  text-align: justify;
+  padding-left: 15%;
+  display: block;
+  width: 85%;
+}
+
+#input-position {
+  padding-top: 0%;
+  padding-left: 20%;
+  margin-left: 9%;
+}
+
+#input-position input {
+  padding: 14px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 58%;
+  margin-right: 0px;
+  border-color: rgba(189, 160, 122, 0.692);
+  border-width: 1.5px;
+  background-color: inherit;
+  border-width: 1px;
+  border-right: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px;
+  margin-left: -57px;
+  width: 13%;
+  border-left: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: rgb(223, 217, 217);
+  background: rgba(156, 128, 92, 0.692) top;
+  border-color: rgba(189, 160, 122, 0.692);
+  border-style: hidden;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+#left-im {
+  position: relative;
+  /* height: 100%; */
+}
+
+#left-im img {
+  height: 99.5%;
+  width: 100%;
+}
+
+/* Section Lineup  */
+
+.lineup {
+  background: rgb(95, 94, 94);
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.lineup-font {
+  color: rgb(223, 217, 217);
+}
+
+.linup-bakery-font {
+  font-size: 2.1em;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.lineup ul li {
+  font-size: 1.7em;
+  list-style: none;
+}
+
+.menu-items {
+  position: relative;
+}
+
+.menu-items li {
+  padding: 20px;
+}
+
+.contact-items {
+  position: relative;
+}
+
+.contact-items li {
+  padding: 6%;
+}
+
+.contact-items ul {
+  height: 100%;
+}
+
+.contact-up {
+  padding-bottom: 50%;
+}
+
+.icons {
+  padding-top: 15%;
+}
+
+.icons a {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Section end */
+
+#section-end {
+  position: relative;
+  height: 14rem;
+}
+
+#section-end div {
+  height: 100%;
+  padding: 13%;
+}
+
+/* #section-end-text {
+  
+} */
+
+#section-end p {
+  /* display: block; */
+  text-align: center;
+  font-size: 2.7em;
+  color: rgb(223, 217, 217);
+}
